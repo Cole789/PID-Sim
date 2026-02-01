@@ -49,7 +49,7 @@ Each system shares a common interface and can be swapped without restarting the 
 ### Compile
 ```g++ -std=c++17 -Wall -Wextra -O2 *.cpp -o pidsim```
 ### Run
-```./pidsim```
+```./pidsim
 
 
 ## Project Structure
