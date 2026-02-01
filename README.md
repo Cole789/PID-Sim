@@ -51,7 +51,6 @@ Each system shares a common interface and can be swapped without restarting the 
 ### Run
 ```./pidsim```
 
----
 
 ## Project Structure
 ```.
