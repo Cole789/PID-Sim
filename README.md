@@ -49,8 +49,7 @@ Each system shares a common interface and can be swapped without restarting the 
 ### Compile
 ```g++ -std=c++17 -Wall -Wextra -O2 *.cpp -o pidsim```
 ### Run
-```./pidsim
-
+```./pidsim```
 
 ## Project Structure
 ```.
@@ -58,9 +57,8 @@ Each system shares a common interface and can be swapped without restarting the 
 ├── simulation.cpp/hpp # Simulation loop and system management
 ├── terminal.cpp/hpp # Raw terminal input and key handling
 ├── pid.hpp # PID controller implementation
-├── robot_systems.hpp # Physical system models```
-
-
+├── robot_systems.hpp # Physical system models
+```
 ---
 
 ## Educational Goals
@@ -71,7 +69,5 @@ This project is designed to:
 - Encourage experimentation through live parameter tuning
 - Reinforce low-level C++ and systems programming concepts
 
-
 License
-
-MIT License (or replace with your preferred license)
+MIT License
