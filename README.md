@@ -59,7 +59,7 @@ Each system shares a common interface and can be swapped without restarting the 
 ├── simulation.cpp/hpp # Simulation loop and system management
 ├── terminal.cpp/hpp # Raw terminal input and key handling
 ├── pid.hpp # PID controller implementation
-├── robot_systems.hpp # Physical system models```
+├── robot_systems.hpp # Physical system models
 
 
 ---
