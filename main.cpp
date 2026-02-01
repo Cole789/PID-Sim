@@ -1,8 +1,8 @@
 #define _XOPEN_SOURCE 500
 #include "pid.hpp"
-#include "robot_systems.hpp"
-#include "terminal.hpp"
-#include "simulation.hpp"
+#include "Headers/robot_systems.hpp"
+#include "Headers/terminal.hpp"
+#include "Headers/simulation.hpp"
 #include <iostream>
 #include <unistd.h>
 #include <vector>
@@ -36,7 +36,7 @@ int main() {
     cin >> targetVal;
 
     double kP, kI, kD;
-    
+
     cout << "\n=== Enter PID Constants ===\n";
     cout << "Enter new kP: "; cin >> kP;
     cout << "Enter new kI: "; cin >> kI;

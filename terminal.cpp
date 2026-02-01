@@ -1,4 +1,4 @@
-#include "terminal.hpp"
+#include "Headers/terminal.hpp"
 #include <unistd.h>
 
 Key ReadKey() {

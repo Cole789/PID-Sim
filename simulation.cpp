@@ -1,5 +1,5 @@
-#include "simulation.hpp"
-#include "terminal.hpp"
+#include "Headers/simulation.hpp"
+#include "Headers/terminal.hpp"
 #include <iostream>
 #include <thread>
 #include <chrono>

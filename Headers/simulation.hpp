@@ -4,8 +4,8 @@
 #include <vector>
 #include <cstdio>
 #include "pid.hpp"
-#include "robot_systems.hpp"
-#include "terminal.hpp"
+#include "Headers/robot_systems.hpp"
+#include "Headers/terminal.hpp"
 
 void SetTerminalToRawNonBlocking(termios& orig, termios& raw);
 void RestoreTerminal(const termios& orig);
